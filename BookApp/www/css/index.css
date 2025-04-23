@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #121212;
+    color: white;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .form input, .form button {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  .form input {
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  .form button {
+    background-color: #2f68d2;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .book {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+  }
+    .book.sold-out {
+    opacity: 0.5;
+    text-decoration: line-through;
+  }
+  
+  .book .details.sold-out {
+    opacity: 0.5;
+    text-decoration: line-through;
+  }
+  
+  
+  .actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 0.5rem;
+  }
+  
+  .actions button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .actions .remove-btn {
+    background-color: #e53935;
+    color: white;
+  }
+  
+  .actions button:not(.remove-btn) {
+    background-color: #2f68d2;
+    color: white;
+  }
+  
